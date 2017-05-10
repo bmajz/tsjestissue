@@ -26,6 +26,9 @@
       "ts",
       "tsx",
       "js"
+    ],
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!moduletest)"
     ]
   }
 }
